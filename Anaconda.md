@@ -1,4 +1,4 @@
-# Setting you conda environment
+# Setting up your conda environment
 
 **Anaconda is already installed** on _halperingpu_ at _/scratch/anaconda3/bin/conda_ (please do not download and install a new one).
 
@@ -20,7 +20,7 @@ touch ~/.condarc
 username=<your_username>
 ```
 
-**Add _/scratch_ path to your _.condarc_ it** (to set it as the default path for env installations)
+**Add your _/scratch_ path to your _.condarc_** (to set it as the default path for env installations)
 ```
 conda config --add envs_dirs /scratch/$username/envs
 ```
